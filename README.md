@@ -43,7 +43,7 @@ A côté de ça, nous avons créé un repo public sur GitHub (vous y êtes !) su
     </td>
     <td>
       <p align="center">
-        <a href="https://github.com/Lukata/AvanadeChristmas">
+        <a href="https://github.com/Lukata/ava-aoc-2021">
           Contribuer sur GitHub<br/>
           Lukata/AvanadeChristmas
         </a>
