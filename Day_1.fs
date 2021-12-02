@@ -2,7 +2,7 @@
 open System.IO
 
 type DifferenceDirection =
-    | None
+    | Inapplicable
     | Decreasing
     | Increasing
 
@@ -10,7 +10,7 @@ let getDifferenceDirection measurements =
     match measurements with
     | [ first ; second ] when first > second -> DifferenceDirection.Decreasing
     | [ first ; second ] when first < second -> DifferenceDirection.Increasing
-    | [ _ ] -> DifferenceDirection.None
+    | _ -> DifferenceDirection.Inapplicable
 
 let getMeasurements =
     File.ReadAllLines "Day_1.input.txt"
@@ -18,17 +18,23 @@ let getMeasurements =
     |> List.filter (fun line -> line <> "")
     |> List.map int
 
-let getMeasurementsDifferenceDirections measurements =
+let getDifferenceDirections measurements =
     measurements
     |> List.windowed 2
     |> List.map getDifferenceDirection
 
-let getNumberOfIncreases measurementDifferenceDirections =
-    measurementDifferenceDirections
+let countIncreases measurements =
+    measurements
+    |> getDifferenceDirections
     |> List.filter (fun direction -> direction = DifferenceDirection.Increasing)
     |> List.length
 
-let getPuzzleAnswer =
+let getPuzzle1Answer =
     getMeasurements
-    |> getMeasurementsDifferenceDirections
-    |> getNumberOfIncreases
+    |> countIncreases
+
+let getPuzzle2Answer = 
+    getMeasurements
+    |> List.windowed 3
+    |> List.map List.sum
+    |> countIncreases
