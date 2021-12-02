@@ -1,0 +1,17 @@
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\bin\Debug\net5.0\Day2.exe
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\bin\Debug\net5.0\input.txt
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\bin\Debug\net5.0\Day2.deps.json
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\bin\Debug\net5.0\Day2.runtimeconfig.json
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\bin\Debug\net5.0\Day2.runtimeconfig.dev.json
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\bin\Debug\net5.0\Day2.dll
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\bin\Debug\net5.0\ref\Day2.dll
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\bin\Debug\net5.0\Day2.pdb
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\obj\Debug\net5.0\Day2.csproj.AssemblyReference.cache
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\obj\Debug\net5.0\Day2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\obj\Debug\net5.0\Day2.AssemblyInfoInputs.cache
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\obj\Debug\net5.0\Day2.AssemblyInfo.cs
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\obj\Debug\net5.0\Day2.csproj.CoreCompileInputs.cache
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\obj\Debug\net5.0\Day2.dll
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\obj\Debug\net5.0\ref\Day2.dll
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\obj\Debug\net5.0\Day2.pdb
+C:\Users\l.ladreyt\source\repos\ava-aoc-2021\Day2\Day2\Day2\obj\Debug\net5.0\Day2.genruntimeconfig.cache
