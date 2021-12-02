@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>aoc_2021</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Day_1.fs" />
+    <Compile Include="Program.fs" />
+    <EmbeddedResource Include="Day_1.input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
