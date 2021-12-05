@@ -48,7 +48,6 @@ namespace AdventOfCode.Day4
                         lastWiningNumber = number;
                         bingo.Boards.RemoveAt(i);
                         i--;
-                        Console.WriteLine(bingo.Boards.Count);
                     }
                 }
                 if(bingo.Boards.Count == 0)
